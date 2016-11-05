@@ -36,7 +36,7 @@ wilddog.sync().ref('city').on('child_added',function(snapshot,prev){
 ```
 ---
 
-### EventType
+#### EventType
 
 Query [on](/api/sync/web/Query.html#on) 和 [once](/api/sync/web/Query.html#once) 所支持的事件列表。
 
@@ -50,7 +50,7 @@ Query [on](/api/sync/web/Query.html#on) 和 [once](/api/sync/web/Query.html#once
 
 ---
 
-### onEvent
+#### onEvent
 
 事件发生时所触发的回调函数
 
