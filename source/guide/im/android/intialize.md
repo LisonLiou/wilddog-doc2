@@ -1,11 +1,8 @@
 title: 初始化
 ---
 
-使用 Wilddog IM 首先需要初始化配置，初始化之后才可以进行创建对话、收发消息等一些操作。
+本篇文档介绍使用 `WilddogIMClient` 的方法来初始化 Wilddog IM SDK。
 
-* 1.初始化 SDK
-* 2.监听连接状态
-* 3.登录和监听用户登录状态
 
 ### 初始化 SDK
 野狗 IM SDK 的主要入口为 WilddogIMClient，一切操作都从此入口开始。SDK 操作第一步需要创建 WilddogIMClient。例如:
