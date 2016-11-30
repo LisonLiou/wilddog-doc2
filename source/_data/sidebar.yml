@@ -21,7 +21,7 @@ quickstart:
     Android: /quickstart/video/android.html
     iOS: /quickstart/video/ios.html
   即时通讯: 
-    Android: /quickstart/im/Android.html
+    Android: /quickstart/im/android.html
     iOS: /quickstart/im/ios.html
   身份认证:
     Web: /quickstart/auth/web.html
@@ -72,6 +72,7 @@ guide:
     最佳实践:
       组织数据: /guide/sync/bestpractice/structure-data.html
       数组处理: /guide/sync/bestpractice/array.html
+      离线事件: /guide/sync/bestpractice/offline.html
     数据限制: /guide/sync/data-limit.html
   
   实时视频通话:
@@ -94,17 +95,13 @@ guide:
     附加功能: /guide/video/add-ons.html
   
   即时通讯:
-    基础概念:
+    #基础概念:
     Android:
       初始化: /guide/im/android/intialize.html
       用户集成: /guide/im/android/users.html
       收发消息: /guide/im/android/message.html
       未读消息计数: /guide/im/android/unread.html
-<<<<<<< HEAD
-      讨论组管理: /guide/im/android/group.html
-=======
       群组管理: /guide/im/android/group.html
->>>>>>> 12b339129ecbf5f31e865ced9f65434abffac048
       离线推送: /guide/im/android/push.html
 
     iOS:
@@ -112,11 +109,7 @@ guide:
       用户集成: /guide/im/ios/users.html
       收发消息: /guide/im/ios/message.html
       未读消息计数: /guide/im/ios/unread.html
-<<<<<<< HEAD
       讨论组管理: /guide/im/ios/group.html
-=======
-      群组管理: /guide/im/ios/group.html
->>>>>>> 12b339129ecbf5f31e865ced9f65434abffac048
       离线推送: /guide/im/ios/push.html
 
       
@@ -287,6 +280,19 @@ api:
       WDGIMMessageVoice: /api/im/ios/WDGIMMessageVoice.html
       WDGIMUser: /api/im/ios/WDGIMUser.html
     Android:
+      WilddogIMClient: /api/im/android/WilddogIMClient.html
+      WilddogIMClient.CompletionListener: /api/im/android/WilddogIMClient.CompletionListener.html
+      WilddogIMClient.WilddogIMAuthStateListener: /api/im/android/WilddogIMClient.WilddogIMAuthStateListener.html
+      WilddogIMClient.WilddogIMConnectionListener: /api/im/android/WilddogIMClient.WilddogIMConnectionListener.html
+      WilddogIMClient.WilddogIMGroupChangeListener: /api/im/android/WilddogIMClient.WilddogIMGroupChangeListener.html
+      WilddogIMClient.WilddogIMMessageListener: /api/im/android/WilddogIMClient.WilddogIMMessageListener.html    
+      Conversation: /api/im/android/Conversation.html
+      Message: /api/im/android/Message.html    
+      GroupTipMessage: /api/im/android/GroupTipMessage.html
+      ImageMessage: /api/im/android/ImageMessage.html    
+      TextMessage: /api/im/android/TextMessage.html
+      VoiceMessage: /api/im/android/VoiceMessage.html    
+      
   
   身份认证:
     Web:
