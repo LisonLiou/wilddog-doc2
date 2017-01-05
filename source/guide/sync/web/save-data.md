@@ -64,7 +64,7 @@ Wilddog Sync 支持为每个节点设置优先级(priority)，用于实现节点
 例如，设置`user`节点的优先级为100：
 
 ```javascript
-wilddog.sync().ref('user').setWithPriority(100)
+wilddog.sync().ref('user').setPriority(100)
     .then(function(){
         console.info('set priority success.')
     })
